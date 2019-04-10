@@ -3,6 +3,10 @@ p {
   padding: 0;
 }
 
+img {
+  max-width: 100%;
+}
+
 .card {
   display: inline-block;
   margin: 16px;
@@ -33,9 +37,7 @@ p {
   padding: 0;
 
 }
-img {
-  max-width: 100%;
-}
+
 
 .card .content {
   padding: 16px;
