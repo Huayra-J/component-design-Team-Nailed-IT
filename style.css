@@ -13,6 +13,11 @@ p {
   border-radius: 2px;
   box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24);
 }
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+}
+
 .card .heading {
   position: relative;
   height: 160px;
