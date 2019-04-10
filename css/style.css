@@ -20,8 +20,9 @@ p {
 
 .card .heading {
   position: relative;
-  height: 160px;
-  color: black;
+  height: 100px;
+  color: White;
+  background-color: #2447d6;
 }
 .card .heading h1 {
   position: absolute;
@@ -30,8 +31,9 @@ p {
   font-size: 24px;
   margin: 0;
   padding: 0;
+
 }
-.card .media {
+img {
   max-width: 100%;
 }
 
