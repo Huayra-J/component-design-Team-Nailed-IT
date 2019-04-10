@@ -16,6 +16,7 @@ img {
   background-color: #ffffff;
   border-radius: 2px;
   box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24);
+  border-radius: 5px;
 }
 
 .card:hover {
@@ -26,7 +27,9 @@ img {
   position: relative;
   height: 100px;
   color: White;
-  background-color: #2447d6;
+  background-color: #4285f4;
+  border-top-right-radius: 5px;
+  border-top-left-radius:5px;
 }
 .card .heading h1 {
   position: absolute;
@@ -45,7 +48,6 @@ img {
 }
 
 .card .button {
-  /* Green */
  border: none;
  background-color: white;
  padding: 16px ;
@@ -58,7 +60,7 @@ img {
 }
 
 .card .button:hover {
-  background-color: #4CAF50; /* Green */
+  background-color: #4CAF50;
   color: white;
 
 }
