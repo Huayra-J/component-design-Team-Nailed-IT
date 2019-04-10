@@ -7,6 +7,16 @@ img {
   max-width: 100%;
 }
 
+h1 {
+ position: absolute;
+ bottom: 16px;
+ left: 16px;
+ font-size: 1.25em;
+ margin: 0;
+ padding: 1em;
+}
+
+
 .card {
   display: inline-block;
   margin: 16px;
@@ -17,6 +27,7 @@ img {
   border-radius: 2px;
   box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24);
   border-radius: 5px;
+  margin: 24px; ##this can be a problem in the future if there is any problem with mergin this can be a cause"
 }
 
 .card:hover {
@@ -31,19 +42,13 @@ img {
   border-top-right-radius: 5px;
   border-top-left-radius:5px;
 }
-.card .heading h1 {
-  position: absolute;
-  bottom: 16px;
-  left: 16px;
-  font-size: 1.25em;
-  margin: 0;
-  padding: 0;
-}
 
 
 .card .content {
-  padding: 16px;
+
   font-size: 0.875em;
+  padding: 1em;
+
 }
 
 .card .button {
@@ -54,6 +59,9 @@ img {
  display: inline-block;
  font-size: 16px;
  margin: 4px 2px;
+ margin-left: 15px; ##changed this part to align the button #
+ cursor: pointer;
+ border: 2px solid #4CAF50;
 
 
 }
