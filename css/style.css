@@ -21,7 +21,7 @@ p {
 .card .heading {
   position: relative;
   height: 160px;
-  color: #ffffff;
+  color: black;
 }
 .card .heading h1 {
   position: absolute;
@@ -31,6 +31,10 @@ p {
   margin: 0;
   padding: 0;
 }
+.card .media {
+  max-width: 100%;
+}
+
 .card .content {
   padding: 16px;
   font-size: 14px;
