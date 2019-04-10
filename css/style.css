@@ -43,3 +43,22 @@ img {
   padding: 16px;
   font-size: 14px;
 }
+
+.card .button {
+  /* Green */
+ border: none;
+ background-color: white;
+ padding: 16px ;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 16px;
+ margin: 4px 2px;
+
+
+}
+
+.card .button:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+
+}
