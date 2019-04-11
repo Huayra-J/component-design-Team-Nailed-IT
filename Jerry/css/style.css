@@ -1,6 +1,5 @@
 html{
 	background-image: url(../images/Writing.jpg);
-	background-repeat: no-repeat;
 	background-size:cover;
 	height: 100%;
 }
@@ -9,6 +8,26 @@ p{
 	margin: 0.8em 0;
 	padding: 0;
 	font-family: sans-serif;
+	line-height: 1.5;
+}
+
+.extra { 
+    display: none;
+	position:relative;
+	animation:animatetop 0.5s}@keyframes animatetop{from{top:-100px;opacity:0} to{top:0;opacity:1} /*got the code from https://www.w3schools.com/w3css/4/w3.css, line 119*/
+}
+
+p:hover .extra {
+    display: inline-block;
+}
+
+.hide{
+	font-style: italic;
+	text-decoration: underline;
+}
+
+p:hover .hide {
+    display: none;
 }
 
 img{
@@ -43,18 +62,21 @@ h3{
 	display: inline-block;
 	margin: 16px;
 	width: 380px;
+	height: 450px;
 	min-height: 280px;
 	font-size: 16px;
 	background-color: #ffffff;
 	border-radius: 2px;
 	box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24);
 	border-radius: 5px;
-	margin: 24px; ##this can be a problem in the future if there is any problem with mergin this can be a cause"
+	margin: 24px;
+	transition: height 1s;
 }
 
 .card:hover{
 	box-shadow: 0 8px 16px 0 #5e6063;
 	border-bottom: 1px solid black;
+	height: 550px;
 }
 
 .card .heading{
@@ -71,7 +93,13 @@ h3{
 	font-size: 0.875em;
 	padding: 16px;
 	font-family: sans-serif;
+	height: 70px;
+	transition: height 1s;
 
+}
+
+.card .content:hover{
+	height: 160px;
 }
 
 .card .button {
@@ -84,10 +112,11 @@ h3{
 	font-weight: bold;
 	color: #a64ee5;
 	margin: 8px;
-	margin-left: 8px;
 	cursor: pointer;
 	font-family: sans-serif;
+	
 }
+
 
 .card .button:hover {
 	background-color: #4CAF50;
@@ -95,3 +124,5 @@ h3{
 	border-radius: 2px;
 
 }
+
+
