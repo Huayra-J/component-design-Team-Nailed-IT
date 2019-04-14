@@ -32,6 +32,7 @@ body {
 .card {
   display: inline-block;
   width: 380px;
+  height: auto;
   font-size: 16px;
   background-color: #white;
   border-radius: 2px;
@@ -41,7 +42,6 @@ body {
   box-sizing: inherit;
 
 
-  ##this can be a problem in the future if there is any problem with mergin this can be a cause"
 
 }
 
@@ -65,7 +65,8 @@ body {
 
 .card .content {
 
-  display: inline-block;
+  width: 360px;
+  display: block
   font-size: 0.875em;
   padding: 1em;
   color: black;
@@ -83,7 +84,6 @@ body {
   font-size: 16px;
   margin: 4px 2px;
   margin-left: 15px;
-  ##changed this part to align the button # cursor: pointer;
   border: 2px solid #211545;
   margin-bottom: 40px;
 }
@@ -109,5 +109,11 @@ body {
 .linker a:hover {
   text-decoration: underline;
   color: #990000;
+  font-style: italic;
+  font-size: 1em;
+  width: inherit;
+
+
+
 
 }
