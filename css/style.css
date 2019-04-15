@@ -23,6 +23,13 @@ h2{
 	font-family: sans-serif;
 }
 
+h3{
+	font-size: 0.875em;
+	margin: 0;
+	padding: 16px;
+	font-family: sans-serif;
+}
+
 
 .card {
 	display: inline-block;
