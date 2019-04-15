@@ -30,6 +30,23 @@ h3{
 	font-family: sans-serif;
 }
 
+a:link {
+	color: blue;
+	text-decoration: none;
+
+}
+
+a:visited {
+	color:purple;
+}
+
+a:hover {
+	color:red;
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+
 
 .card {
 	display: inline-block;
