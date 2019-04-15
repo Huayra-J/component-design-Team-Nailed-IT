@@ -116,13 +116,11 @@ body {
 }
 
 
-//** Links changing colour when hovered */
+/** Links changing colour when hovered */
 .linker a:hover {
   text-decoration: underline;
   color: #990000;
   font-style: italic;
   font-size: 1em;
   width: inherit;
-
-
 }
