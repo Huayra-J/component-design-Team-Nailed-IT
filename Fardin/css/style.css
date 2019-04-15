@@ -1,3 +1,4 @@
+
 p {
   margin: 0.8em 0;
   padding: 0;
@@ -7,6 +8,12 @@ img {
   width: 100%;
   height: 213.75px;
 
+}
+
+h1 {
+  font-size: 1.75em;
+  font-family: sans-serif;
+  margin-left: 64px;
 }
 
 h2 {
@@ -19,11 +26,7 @@ h2 {
   font-family: sans-serif;
 }
 
-h1 {
-  font-size: 1.75em;
-  font-family: sans-serif;
-  margin-left: 64px;
-}
+
 
 body {
   background-color: #f3f2f5;
@@ -45,6 +48,8 @@ body {
 
 }
 
+
+//** Makes the shadow at the back of the card and the red bold line at the bottom */
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
   transform: translateY(-5px);
@@ -92,9 +97,13 @@ body {
   background-color: #211545;
   color: white;
 }
+
+
+//** Increases the area around the link so its easier to user in mobile */
 .linker{
   padding: 8px;
 }
+
 
 .linker a:link{
   text-decoration:none;
@@ -106,14 +115,14 @@ body {
   color: black;
 }
 
+
+//** Links changing colour when hovered */
 .linker a:hover {
   text-decoration: underline;
   color: #990000;
   font-style: italic;
   font-size: 1em;
   width: inherit;
-
-
 
 
 }
